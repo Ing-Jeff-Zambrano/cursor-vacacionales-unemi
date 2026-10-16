@@ -1,0 +1,137 @@
+:root {
+  --unemi-navy: #1b2d45;
+  --unemi-navy-dark: #132033;
+  --unemi-orange: #f39200;
+  --unemi-orange-dark: #d97e00;
+  --unemi-bg: #f4f7f9;
+  --unemi-footer: #e8eef3;
+  --unemi-text: #333333;
+  --unemi-muted: #6c757d;
+  --hero-overlay: linear-gradient(
+    135deg,
+    rgba(27, 45, 69, 0.94) 0%,
+    rgba(19, 32, 51, 0.9) 55%,
+    rgba(27, 45, 69, 0.88) 100%
+  );
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  color: var(--unemi-text);
+  background-color: var(--unemi-bg);
+}
+
+.bg-unemi {
+  background-color: var(--unemi-navy) !important;
+}
+
+.btn-unemi {
+  background-color: var(--unemi-navy);
+  border-color: var(--unemi-navy);
+  color: #fff;
+}
+
+.btn-unemi:hover,
+.btn-unemi:focus {
+  background-color: var(--unemi-navy-dark);
+  border-color: var(--unemi-navy-dark);
+  color: #fff;
+}
+
+.btn-unemi-orange {
+  background-color: var(--unemi-orange);
+  border-color: var(--unemi-orange);
+  color: #fff;
+}
+
+.btn-unemi-orange:hover,
+.btn-unemi-orange:focus {
+  background-color: var(--unemi-orange-dark);
+  border-color: var(--unemi-orange-dark);
+  color: #fff;
+}
+
+.text-unemi {
+  color: var(--unemi-navy) !important;
+}
+
+.text-unemi-orange {
+  color: var(--unemi-orange) !important;
+}
+
+.navbar-unemi {
+  background-color: var(--unemi-navy) !important;
+  border-top: 4px solid var(--unemi-orange);
+}
+
+.hero-section {
+  min-height: 88vh;
+  background-image: var(--hero-overlay),
+    url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.hero-badge {
+  background-color: var(--unemi-orange);
+  color: #fff;
+  font-weight: 600;
+}
+
+.section-title {
+  color: var(--unemi-navy);
+}
+
+.service-icon {
+  width: 3.25rem;
+  height: 3.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(27, 45, 69, 0.08);
+  color: var(--unemi-orange);
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.card-unemi {
+  border: 1px solid rgba(27, 45, 69, 0.08);
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+
+.form-control.is-valid,
+.form-select.is-valid {
+  border-color: #198754;
+}
+
+.form-control.is-invalid,
+.form-select.is-invalid {
+  border-color: #dc3545;
+}
+
+.password-toggle {
+  cursor: pointer;
+}
+
+.footer-unemi {
+  background-color: var(--unemi-footer);
+  color: var(--unemi-navy);
+  border-top: 3px solid var(--unemi-orange);
+}
+
+.footer-unemi a {
+  color: var(--unemi-navy);
+  text-decoration: none;
+}
+
+.footer-unemi a:hover {
+  color: var(--unemi-orange);
+  text-decoration: underline;
+}

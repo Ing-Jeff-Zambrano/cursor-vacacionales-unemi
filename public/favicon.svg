@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="UNEMI">
+  <rect width="64" height="64" rx="12" fill="#1b2d45"/>
+  <rect y="0" width="64" height="6" fill="#f39200"/>
+  <path d="M12 42 L32 18 L52 42 Z" fill="#f39200"/>
+  <rect x="28" y="38" width="8" height="14" fill="#ffffff"/>
+</svg>
